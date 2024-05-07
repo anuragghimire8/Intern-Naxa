@@ -28,8 +28,11 @@ const Services = () => {
         
        
             <h1 className='text-3xl'>Services</h1>
+            <p className='text-7xl'>At <span className='text-blue-500'>NAXA</span>, we work on <span className='text-blue-500'>ideas</span>; ideas <br/>that can provide simple solutions to <br/><span className='text-blue-500'>complex problems.</span></p>
 
-            <div className='flex gap-4'>
+           <p className='pt-5 text-text-2xl font-bold'> We work as a team to generate, explore, build and validate ideas. We also <br/>contextualize innovations around the world to find the best fitting solutions <br/>to local problems.</p>
+
+            <div className='flex gap-4 pt-5'>
            {
             items.map((service,id)=>{
                 return(
